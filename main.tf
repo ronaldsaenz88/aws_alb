@@ -28,9 +28,6 @@ terraform {
 provider "aws" {
   region  = var.aws_region
   profile = var.aws_profile
-
-  access_key = "AKIA4BGY64GLI27MUQLG"
-  secret_key = "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"
 }
 
 /*************** VPC ***************/
